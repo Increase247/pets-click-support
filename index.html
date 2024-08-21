@@ -8,21 +8,32 @@
 
     <!-- Adsterra code-->
     <script type='text/javascript' src='//dearesthydrogen.com/19/3e/1a/193e1a28dbfd92982266ad518a29dfb8.js'></script>
-    <!-- Meta Pixel Code -->
+    
+    <!-- Facebook Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version=&#39;2.0&#39;;
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,&#39;script&#39;,
-&#39;https://connect.facebook.net/en_US/fbevents.js&#39;);
-fbq(&#39;init&#39;, &#39;3726945050860828&#39;);
-fbq(&#39;track&#39;, &#39;PageView&#39;);
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '714310467340899');
+  fbq('track', 'PageView'); // Tracks page views
+
+  // Custom event for landing page views
+  fbq('trackCustom', 'LandingPageView', {
+    pageName: 'Landing Page', // Custom parameter to identify the page
+    // You can add more custom parameters here if needed
+  });
 </script>
-<noscript><img height='1' src='https://www.facebook.com/tr?id=3726945050860828&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/></noscript>
-<!-- End Meta Pixel Code -->
+<noscript>
+  <img height="1" width="1" style="display:none" 
+       src="https://www.facebook.com/tr?id=714310467340899&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
 </head>
 <body>
     <!-- Hero Section -->
