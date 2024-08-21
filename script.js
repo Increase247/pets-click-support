@@ -1,12 +1,3 @@
-document.querySelectorAll('.cta-button').forEach(button => {
-    button.addEventListener('click', function(event) {
-        event.preventDefault();  // Prevent the default link action
-        alert('Thank you for clicking to support the pets!');
-        // Here you can redirect to an ad page or any other action
-        window.location.href = 'https://your-ad-page-url.com';
-    });
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     const names = ["Joshua", "Frank", "Emily", "Madison", "Michael", "Jessica", "David", "Sarah", "John", "Ashley"];
     const widget = document.getElementById("support-widget");
