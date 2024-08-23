@@ -10,24 +10,24 @@ body {
 .hero-section {
     background-color: #f8b4b4;
     text-align: center;
-    padding: 50px 20px;
+    padding: 30px 10px;
     color: white;
 }
 
 .hero-section h1 {
-    font-size: 48px;
+    font-size: 35px;
     margin: 0;
 }
 
 .hero-section p {
-    font-size: 24px;
+    font-size: 22px;
     margin: 10px 0 0;
 }
 
 /* Pet Showcase Section */
 .pet-showcase {
     background-color: white;
-    padding: 40px 20px;
+    padding: 30px 20px;
     text-align: center;
 }
 
